@@ -1,0 +1,67 @@
+{"categories":[{"name":"Entradas","slug":"Primeiro, seu prato"},{"name":"Pratos","slug":"Agora, seu prato principal"},{"name":"Sobremesas","slug":"Por fim, sua sobremesa"}],"items":[{"name":"Croquete de costela","description":"com emsulsão de chimichurri.","price":22,"category":0},{"name":"Cogumelos frescos","description":"com abobrinha, tomatinhos, terra verde e coalhada.","price":25,"category":0},{"name":"Pescada Curada","description":"ao molho veloute de cebola e oleo de cebolinha.","price":21,"category":0},{"name":"Bife Ancho na Brasa","description":"mix de legumes e batatas coloridos, saladinha de baby leaf, pimentão braseado e molho da casa de chimichurri.","price":59,"category":1},{"name":"Camarada Camarão","description":"fettuccine com camarão, molho branco, limão siciliano, queijo parmesão e azeite de cebolinha.","price":69,"category":1},{"name":"Tuna de Saburó","description":"atum selado ao molho dashi zuu, purê de cenoura, granola salgada, sunomono de cajuzinho, gel de limão e alho poró frito.","price":21,"category":1},{"name":"Texturas de chocolate","description":"twist de chocolate, sorvete da vovó, croc branco, financier de cacau, tuile, crumble de chocolate, flor de sal e toque de azeite.","price":27,"category":2},{"name":"Azedou!","description":"creme de limão, biscoito amanteigado de de gengibre, telha de suspiro, cupuaçu e gel de limão.","price":27,"category":2},{"name":"Pudim do Vovô","description":"pudim de café, cumaru e crumble.","price":21,"category":2}]}
+
+
+const menu ={
+    categories:[
+        {id:0,name:"Entradas",slug:"Primeiro, seu prato"},
+        {id:1,name:"Pratos",slug:"Agora, seu prato principal"},
+        {id:2,name:"Sobremesas",slug:"Por fim, sua sobremesa"}
+    ],
+    items:[
+        {
+        name:"Croquete de costela",
+        description:"com emsulsão de chimichurri.",
+        price:22,
+        category:0
+        },
+        {
+        name:"Cogumelos frescos",
+        description:"com abobrinha, tomatinhos, terra verde e coalhada.",
+        price:25,
+        category:0
+        },
+        {
+        name:"Pescada Curada",
+        description:"ao molho veloute de cebola e oleo de cebolinha.",
+        price:21,
+        category:0
+        },
+        {
+        name:"Bife Ancho na Brasa",
+        description:"mix de legumes e batatas coloridos, saladinha de baby leaf, pimentão braseado e molho da casa de chimichurri.",
+        price:59,
+        category:1
+        },
+        {
+        name:"Camarada Camarão",
+        description:"fettuccine com camarão, molho branco, limão siciliano, queijo parmesão e azeite de cebolinha.",
+        price:69,
+        category:1
+        },
+        {
+        name:"Tuna de Saburó",
+        description:"atum selado ao molho dashi zuu, purê de cenoura, granola salgada, sunomono de cajuzinho, gel de limão e alho poró frito.",
+        price:21,
+        category:1
+        },
+        {
+        name:"Texturas de chocolate",
+        description:"twist de chocolate, sorvete da vovó, croc branco, financier de cacau, tuile, crumble de chocolate, flor de sal e toque de azeite.",
+        price:27,
+        category:2
+        },
+        {
+        name:"Azedou!",
+        description:"creme de limão, biscoito amanteigado de de gengibre, telha de suspiro, cupuaçu e gel de limão.",
+        price:27,
+        category:2
+        },
+        {
+        name:"Pudim do Vovô",
+        description:"pudim de café, cumaru e crumble.",
+        price:21,
+        category:2
+        }
+    ]
+}     
+    
